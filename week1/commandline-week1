@@ -1,0 +1,10 @@
+touch lokman.txt                                        //Touch command Syntax to create a new file
+
+mv lokman.txt .lokman.txt                              //To hide a file or directory from the terminal, simply append a dot (.)
+
+ls -a                                                    //To view hidden files and directories in a terminal.
+
+mkdir -p a/b/c/d/e/f                                     //to create multiple nested directories,
+
+printf "hello HYF\my name is lokman"  >> lokman.txt     //append a message to a file, without a newline character
+cat lokman.txt
